@@ -1,0 +1,62 @@
+.parent {
+    background: #f6f9ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: linear-gradient(135deg, #e0f2ff 0%, #f9f9ff 100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+.login-card .avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    background: linear-gradient(135deg, #0d6efd33 0%, #0d6efd11 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card .avatar i {
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+.form-control {
+    border-radius: 0.5rem;
+}
+
+.btn-login {
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background: linear-gradient(135deg, #0b5ed7, #084298);
+}
+
+.forgot-link {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+    color: #4c47d0;
+}
